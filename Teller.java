@@ -47,12 +47,12 @@ public class Teller {
 
     }
 
-//    private void getAccountInfo(Account account){
-//
-//        //Delegation
-//        account.getInfo();
-//
-//    }
+    private void getAccountInfo(Account account){
+
+        //Delegation
+        account.getInfo();
+
+    }
 
     private void takeLoan(Account account,long loanedMoney,long numberOfYears ){
             Loan myLoan = new Loan() ;
